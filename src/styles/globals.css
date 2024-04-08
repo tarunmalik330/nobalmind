@@ -2,32 +2,146 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  scroll-behavior: smooth !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.ff_outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+/* --------------------------Industries---------------------- */
+.slick-dots {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 4px !important;
+  bottom: -28px !important;
+}
+
+.slick-dots li button:before {
+  content: unset !important;
+}
+
+.slick-dots li button {
+  height: 8px !important;
+  width: 8px !important;
+  opacity: 23% !important;
+  border-radius: 50% !important;
+  background-color: #A854E9 !important;
+  transition: all .3s linear;
+}
+
+.slick-dots li {
+  height: 8px !important;
+  width: 8px !important;
+}
+
+.slick-dots li.slick-active {
+  height: 8px !important;
+  width: 28px !important;
+}
+
+.slick-dots li.slick-active button {
+  opacity: .75 !important;
+  width: 28px !important;
+  height: 8px !important;
+  background-color: #A854E9 !important;
+  border-radius: 22px !important;
+}
+
+.slick-slide.slick-active.slick-current div div.box-hover {
+  border: 1px solid rgba(168, 84, 233, 1) !important;
+  border-bottom: 5px solid #A854E9 !important;
+}
+
+.slick-dots li.slick-active,
+.slick-dots li.slick-active+li,
+.slick-dots li.slick-active+li+li {
+  display: inline-block;
+}
+
+.slick-dots li:nth-last-child(1),
+.slick-dots li:nth-last-child(2),
+.slick-dots li:nth-last-child(3) {
+  display: inline-block;
+}
+
+.slick-dots li.slick-active~li:nth-last-child(1),
+.slick-dots li.slick-active~li:nth-last-child(2),
+.slick-dots li.slick-active~li:nth-last-child(3) {
+  display: none;
+}
+
+.slick-dots li.slick-active+li+li:nth-last-child(3),
+.slick-dots li.slick-active+li+li:nth-last-child(2),
+.slick-dots li.slick-active+li+li:nth-last-child(1),
+.slick-dots li.slick-active+li:nth-last-child(3),
+.slick-dots li.slick-active+li:nth-last-child(2),
+.slick-dots li.slick-active+li:nth-last-child(1) {
+  display: inline-block;
+}
+
+/* --------------------faq---------------- */
+.acc1 span {
+  display: none !important;
+}
+
+/* -----------------------------backtotop-------------------------- */
+.backTopBtn {
+  animation: top_btn 2s linear infinite;
+}
+
+@keyframes top_btn {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* ------------------Loader----------------- */
+
+.loading span {
+  animation: loading 1s infinite alternate;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.loading span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+
+.loading span:nth-of-type(3) {
+  animation-delay: 0.4s;
+}
+
+.loading span:nth-of-type(4) {
+  animation-delay: 0.6s;
+}
+
+.loading span:nth-of-type(5) {
+  animation-delay: 0.8s;
+}
+
+.loading span:nth-of-type(6) {
+  animation-delay: 1.0s;
+}
+
+.loading span:nth-of-type(7) {
+  animation-delay: 1.2s;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
