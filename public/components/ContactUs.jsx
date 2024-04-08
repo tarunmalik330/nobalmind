@@ -1,5 +1,5 @@
 import Image from "next/image";
-import contactImg from "../assets/images/png/contactImg.png";
+import contactImg from "../assets/images/png/ContactImg.png";
 import { useState, useEffect } from "react";
 
 export default function ContactUs() {
