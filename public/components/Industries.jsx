@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import React from "react";
 import PlanningImg from "../assets/images/png/PlanningImg.png";
 import Image from "next/image";
-import relativeImg from "../assets/images/png/relativeimg.png";
+import relativeimg from "../assets/images/png/relativeimg.png";
 
 export default function Industries() {
   var settings = {
