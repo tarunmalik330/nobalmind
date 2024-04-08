@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Commonbtn from "./Commonbtn";
 import Image from "next/image";
 import hero from "../assets/images/png/hero.png";
-import relativeImg from "../assets/images/png/relativeImg.png";
+import relativeImg from "../assets/images/png/relativeimg.png";
 
 export default function Header() {
   const [nav, setNav] = useState(true);

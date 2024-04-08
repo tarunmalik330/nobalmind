@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import relativeImage from "../assets/images/png/RelativeImg.png";
+import relativeImg from "../assets/images/png/relativeimg.png";
 
 export default function Newsletter() {
   const [formData, setFormData] = useState({
@@ -57,8 +57,8 @@ export default function Newsletter() {
         className="relative max-sm:bg-btn-gradient max-sm:my-[50px]"
       >
         <Image
-          src={relativeImage}
-          alt="realativeImg"
+          src={relativeImg}
+          alt="relativeImg"
           className="absolute max-w-[80px] w-full top-[15px] left-[35px] md:block hidden"
         />
         <div className="continer mx-auto xl:max-w-[1164px] px-3 xl:pt-[150px] sm:pt-[70px] relative z-[1]">

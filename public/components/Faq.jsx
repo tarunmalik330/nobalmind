@@ -1,6 +1,6 @@
 import Frequently from "./Frequently";
 import Image from "next/image";
-import relativeImg from "../assets/images/png/RelativeImg.png";
+import relativeImg from "../assets/images/png/relativeimg.png";
 
 export default function Faq() {
   return (
