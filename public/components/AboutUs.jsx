@@ -2,7 +2,7 @@ import Image from "next/image";
 import AboutImg from "../assets/images/png/aboutImg.png";
 import { Stars } from "./IconImg";
 import Commonbtn from "./Commonbtn";
-import relativeImg from "../assets/images/png/relativeimg.png";
+import relativeimg from "../assets/images/png/relativeimg.png";
 
 export default function AboutUs() {
   return (
@@ -22,8 +22,8 @@ export default function AboutUs() {
           </div>
           <div className="xl:w-[45.5%] lg:w-[48%] w-full flex justify-center pt-7 lg:pt-0 relative">
             <Image
-              src={relativeImg}
-              alt="relativeImg"
+              src={relativeimg}
+              alt="relativeimg"
               className="absolute max-w-[80px] w-full lg:block hidden right-[-16%] bottom-[5px]"
             />
             <div>

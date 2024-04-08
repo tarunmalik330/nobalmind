@@ -55,13 +55,13 @@ export default function Industries() {
         className="xl:pt-[150px] sm:pt-[70px] pt-[50px] relative"
       >
         <Image
-          src={relativeImg}
-          alt="relativeImg"
+          src={relativeimg}
+          alt="relativeimg"
           className="absolute max-w-[80px] w-full left-[35px] top-[11%] md:block hidden"
         />
         <Image
-          src={relativeImg}
-          alt="realativeImg"
+          src={relativeimg}
+          alt="realativeimg"
           className="absolute max-w-[80px] w-full lg:block hidden bottom-0 right-[20px]"
         />
         <div className="container xl:max-w-[1164px] px-3 mx-auto">

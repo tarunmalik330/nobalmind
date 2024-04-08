@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Commonbtn from "./Commonbtn";
 import Image from "next/image";
 import hero from "../assets/images/png/hero.png";
-import relativeImg from "../assets/images/png/relativeimg.png";
+import relativeimg from "../assets/images/png/relativeimg.png";
 
 export default function Header() {
   const [nav, setNav] = useState(true);
@@ -23,8 +23,8 @@ export default function Header() {
     <>
       <div className="bg-white lg:bg-[url('/assets/images/png/hero-bg-img.webp')] lg:bg-contain lg:bg-no-repeat xl:h-[810px] lg:h-[700px] lg:bg-top relative">
         <Image
-          src={relativeImg}
-          alt="relativeImg"
+          src={relativeimg}
+          alt="relativeimg"
           className="absolute bottom-[-9%] left-[35px] max-w-[80px] w-full lg:block hidden"
         />
         <div className="container xl:max-w-[1164px] px-3 mx-auto relative z-10">

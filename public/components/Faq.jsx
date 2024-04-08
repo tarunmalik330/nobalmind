@@ -1,19 +1,19 @@
 import Frequently from "./Frequently";
 import Image from "next/image";
-import relativeImg from "../assets/images/png/relativeimg.png";
+import relativeimg from "../assets/images/png/relativeimg.png";
 
 export default function Faq() {
   return (
     <>
       <div id="faq" className="xl:pt-[150px] sm:pt-[70px] pt-[50px] relative">
         <Image
-          src={relativeImg}
-          alt="relativeImg"
+          src={relativeimg}
+          alt="relativeimg"
           className="absolute max-w-[80px] w-full top-[12%] left-[35px] md:block hidden"
         />
         <Image
-          src={relativeImg}
-          alt="relativeImg"
+          src={relativeimg}
+          alt="relativeimg"
           className="absolute max-w-[80px] w-full bottom-[17%] lg:block hidden right-[20px]"
         />
         <div className="container xl:max-w-[1164px] mx-auto px-3 sm:mb-[52px] mb-[30px]">
