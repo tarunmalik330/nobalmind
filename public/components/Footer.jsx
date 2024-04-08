@@ -31,7 +31,7 @@ export default function Footer() {
               <div className="flex sm:justify-between gap-8">
                 {" "}
                 <ul className="flex flex-col gap-[14px]">
-                  <h4 className="ff_outfit font-semibold text-[16px] text-white leading-[150%] !mb-4">
+                  <h4 className="ff_outfit font-semibold text-[16px] text-white leading-[150%] mb-4 max-sm:mb-0">
                     Maine
                   </h4>
                   <Link
@@ -60,7 +60,7 @@ export default function Footer() {
                   </Link>
                 </ul>
                 <ul className="flex flex-col gap-[14px]">
-                  <h4 className="ff_outfit font-semibold text-[16px] text-white leading-[150%] !mb-4">
+                  <h4 className="ff_outfit font-semibold text-[16px] text-white leading-[150%] mb-4 max-sm:mb-0">
                     Legal
                   </h4>
                   <Link
