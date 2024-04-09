@@ -111,7 +111,7 @@ export default function Industries() {
                   <p className="mb-1 capitalize leading-[120%] text-[#131200] ff_outfit font-normal text-[20px]">
                     Workplace Harmony
                   </p>
-                  <p className="text-[#131200] opacity-70 text-[16px] font-normal leading-[150%] pb-[24px]">
+                  <p className="text-[#131200] opacity-70 text-[16px] font-normal leading-[150%]">
                     Create a nurturing and peaceful environment for our staff,
                     fostering growth, well-being, and unity. We are more than a
                     team; we are a family.

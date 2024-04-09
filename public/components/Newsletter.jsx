@@ -40,7 +40,7 @@ export default function Newsletter() {
     } else {
       document.body.classList.remove("overflow-hidden");
     }
-  }, []);
+  });
   const handlePopupClose = () => {
     setShowSuccessPopup(false);
     setFormData({
@@ -54,7 +54,7 @@ export default function Newsletter() {
     <>
       <div
         id="service"
-        className="relative max-sm:bg-btn-gradient max-sm:my-[50px]"
+        className="relative max-sm:bg-btn-gradient max-sm:mt-[50px]"
       >
         <Image
           src={relativeimg}
@@ -107,13 +107,13 @@ export default function Newsletter() {
       </div>
       {showSuccessPopup && (
         <div className="fixed top-0 bottom-0 left-0 right-0 flex items-center justify-center backdrop-blur-sm z-40">
-          <div className="md:p-10 p-4 bg-[#a854e9] flex flex-col items-center justify-center gap-7 rounded-[8px]">
+          <div className="md:p-10 p-4 bg-[#000000] flex flex-col items-center justify-center gap-7 rounded-[8px]">
             <p className="text-[24px] font-semibold text-[#FDFDFF] leading-[120%]">
               Form submitted successfully!
             </p>
             <button
               onClick={handlePopupClose}
-              className="py-2 px-4 bg-white btn_1 rounded-lg text-[#A854E9] text-[16px] leading-[150%] mx-auto"
+              className="py-2 px-4 bg-white btn_1 rounded-lg text-[#000000] ff_outfit font-medium text-[16px] leading-[150%] mx-auto"
             >
               Close
             </button>
