@@ -82,7 +82,7 @@ export default function Footer() {
                     Contact
                   </Link>
                   <Link
-                    href=""
+                    href="tel:6295550129"
                     className="font-normal capitalize text-[16px] opacity-70 hover:opacity-100 transition-all ease-linear duration-500 text-[#FDFDFF] leading-[150%]"
                   >
                     (629) 555-0129
