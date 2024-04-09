@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import React from "react";
-import PlanningImg from "../assets/images/png/PlanningImg.png";
+import PlanningImg from "../assets/images/webp/PlanningImg.webp";
 import Image from "next/image";
-import relativeimg from "../assets/images/png/relativeimg.png";
+import relativeimg from "../assets/images/webp/relativeimg.webp";
 
 export default function Industries() {
   var settings = {
@@ -85,7 +85,7 @@ export default function Industries() {
           <div>
             <Slider {...settings}>
               <div className="px-3 overflow-hidden">
-                <div className="p-[18px] rounded-[12px] max-h-[208px] w-full h-full box-hover border border-[#a854e933] border-solid cursor-pointer">
+                <div className="p-[18px] rounded-[12px] md:max-h-[208px] max-h-[240px] w-full h-full box-hover border border-[#a854e933] border-solid cursor-pointer">
                   <div className="w-[36px] h-[36px] bg-[#a854e93d] rounded-[50px] flex justify-center items-center mb-[11px]">
                     <div className="w-[24px] h-[24px] bg-[#FDFDFD] rounded-[50px] flex justify-center items-center">
                       <OneSvg />
@@ -102,7 +102,7 @@ export default function Industries() {
                 </div>
               </div>
               <div className="px-3 overflow-hidden">
-                <div className="p-[18px] rounded-[12px] max-h-[208px] w-full h-full box-hover border border-[#a854e933] border-solid cursor-pointer">
+                <div className="p-[18px] rounded-[12px] md:max-h-[208px] max-h-[240px] w-full h-full box-hover border border-[#a854e933] border-solid cursor-pointer">
                   <div className="w-[36px] h-[36px] bg-[#a854e93d] rounded-[50px] flex justify-center items-center mb-[11px]">
                     <div className="w-[24px] h-[24px] bg-[#FDFDFD] rounded-[50px] flex justify-center items-center">
                       <TwoSvg />
@@ -119,7 +119,7 @@ export default function Industries() {
                 </div>
               </div>
               <div className="px-3 overflow-hidden">
-                <div className="p-[18px] box-hover max-h-[208px] w-full h-full rounded-[12px] border border-[#a854e933] border-solid cursor-pointer">
+                <div className="p-[18px] box-hover md:max-h-[208px] max-h-[240px] w-full h-full rounded-[12px] border border-[#a854e933] border-solid cursor-pointer">
                   <div className="w-[36px] h-[36px] bg-[#a854e93d] rounded-[50px] flex justify-center items-center mb-[11px]">
                     <div className="w-[24px] h-[24px] bg-[#FDFDFD] rounded-[50px] flex justify-center items-center">
                       <ThreeSvg />
@@ -135,7 +135,7 @@ export default function Industries() {
                 </div>
               </div>
               <div className="px-3 overflow-hidden">
-                <div className="p-[18px] box-hover max-h-[208px] w-full h-full rounded-[12px] border border-[#a854e933] border-solid cursor-pointer">
+                <div className="p-[18px] box-hover md:max-h-[208px] max-h-[240px] w-full h-full rounded-[12px] border border-[#a854e933] border-solid cursor-pointer">
                   <div className="w-[36px] h-[36px] bg-[#a854e93d] rounded-[50px] flex justify-center items-center mb-[11px]">
                     <div className="w-[24px] h-[24px] bg-[#FDFDFD] rounded-[50px] flex justify-center items-center">
                       <ThreeSvg />

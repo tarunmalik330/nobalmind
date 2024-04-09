@@ -1,8 +1,8 @@
 import Image from "next/image";
-import AboutImg from "../assets/images/png/aboutImg.png";
+import AboutImg from "../assets/images/webp/aboutImg.webp";
 import { Stars } from "./IconImg";
 import Commonbtn from "./Commonbtn";
-import relativeimg from "../assets/images/png/relativeimg.png";
+import relativeimg from "../assets/images/webp/relativeimg.webp";
 
 export default function AboutUs() {
   return (

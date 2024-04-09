@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pagelogo from "../assets/images/png/FooterLogo.png";
+import pagelogo from "../assets/images/webp/FooterLogo.webp";
 import { Facebook, Insta, Twitter, LinkedIn } from "../components/IconImg";
 import Link from "next/link";
 
@@ -28,7 +28,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="lg:w-[32%] md:w-5/12 sm:6/12 w-full pt-7 md:pt-0">
-              <div className="flex sm:justify-between gap-8">
+              <div className="flex md:justify-between sm:gap-[100px] gap-12">
                 {" "}
                 <ul className="flex flex-col gap-[14px]">
                   <h4 className="ff_outfit font-semibold text-[16px] text-white leading-[150%] mb-4 max-sm:mb-0">

@@ -10,7 +10,7 @@ import Faq from "../../public/components/Faq";
 import Newsletter from "../../public/components/Newsletter";
 import Footer from "../../public/components/Footer";
 import Preloader from "../../public/components/Preloader";
-import backtotop from "../../public/assets/images/png/BackToTop.png"
+import backtotop from "../../public/assets/images/webp/BackToTop.webp"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';

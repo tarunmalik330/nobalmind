@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import relativeimg from "../assets/images/png/relativeimg.png";
+import relativeimg from "../assets/images/webp/relativeimg.webp";
 
 export default function Newsletter() {
   const [formData, setFormData] = useState({
