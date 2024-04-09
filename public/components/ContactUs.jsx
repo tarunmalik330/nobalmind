@@ -203,7 +203,7 @@ export default function ContactUs() {
       {showSuccessPopup && (
         <div className="fixed top-0 bottom-0 left-0 right-0 flex items-center justify-center backdrop-blur-sm z-40">
           <div className="md:p-10 p-4 bg-[#000000] flex flex-col items-center justify-center gap-7 rounded-[8px]">
-            <p className="text-[24px] font-semibold text-[#FDFDFF] leading-[120%]">
+            <p className="sm:text-[24px] text-[20px] font-semibold text-[#FDFDFF] leading-[120%]">
               Form submitted successfully!
             </p>
             <button
