@@ -189,7 +189,7 @@ export default function ContactUs() {
                 </div>
               </form>
             </div>
-            <div className="lg:w-[52.5%] sm:w-11/12 w-full pt-8 lg:pt-0">
+            <div className="lg:w-[52.5%] sm:w-11/12 md:w-9/12 w-full pt-8 lg:pt-0">
               <Image
                 src={contactImg}
                 alt="contactImg"
